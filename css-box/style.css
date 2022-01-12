@@ -4,6 +4,16 @@
     margin: 5px;
 }
 
+/* alternative box model- for setting width and height */
+html {
+    box-sizing: border-box;
+    background-color: rgb(218, 235, 194);
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+  
+
 .center {
     text-align: center;
 }
@@ -12,4 +22,34 @@
     border: 3px solid black;
     padding: 30px;
     margin: 60px;
+}
+
+.box {
+    width: 350px;
+    height: auto;
+    margin: 20px auto;
+    padding: 2px;
+
+    border-bottom: 5px double black;
+    border-top: 10px dotted orange;
+    border-right: 20px solid red;
+    border-left: 10px groove yellow;
+    
+    text-align: center;
+    background-color: lightskyblue;
+    color: darkslategrey;
+    font-weight: bolder;   
+}
+
+span {
+    display: inline-block;
+    background-color: deeppink;
+    color: white;
+    border: 10px dotted blue;
+}
+
+a:hover {
+    background-color: gray;
+    color: white;
+    font-weight: bolder;
 }
