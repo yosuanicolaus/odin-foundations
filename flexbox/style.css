@@ -1,9 +1,37 @@
 * {
     box-sizing: border-box;
-    background-color: rgb(126, 219, 223);
+    background-color: rgb(163, 228, 119);
 }
 
-.container {
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    border: 2px dotted red;
+    height: 400px;
+
+    
+    
+}
+
+.box div{
+    width: 100px;
+    height: 100px;
+    background-color: ivory;
+    border: 10px double rgb(187, 13, 13);
+    text-align: center;
+}
+
+
+
+
+
+/* ---------------------------------------------- */
+
+
+/* .container {
     display: flex;
     flex-direction: row;
     background-color: plum;
@@ -30,7 +58,7 @@
     width: 100px;
     padding: 15px;
     border: 2px solid red;
-}
+} */
 
 
 /* ------------------------------------------ */
