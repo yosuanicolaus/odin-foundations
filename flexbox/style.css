@@ -3,7 +3,39 @@
     background-color: rgb(126, 219, 223);
 }
 
-.flex-container {
+.container {
+    display: flex;
+    flex-direction: row;
+    background-color: plum;
+    border: 5px solid black;
+    padding: 20px;
+    height: 150px;
+    gap: 10px;
+}
+
+.one {
+    flex: initial;
+}
+
+.two {
+    border: 5px solid black;
+    flex: 2;
+}
+
+.three {
+    flex: 2;
+}
+
+.container div {
+    width: 100px;
+    padding: 15px;
+    border: 2px solid red;
+}
+
+
+/* ------------------------------------------ */
+
+/* .flex-container {
     display: flex;
     background-color: plum;
     height: 500 px;
@@ -21,5 +53,4 @@
     width: 50px;
     height: 50px;
     margin: 2px;
-}
-
+} */
