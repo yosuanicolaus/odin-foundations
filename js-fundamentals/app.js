@@ -1,14 +1,7 @@
-let username = prompt("Who's there?")
-let password
+const para = document.getElementById("demo");
 
-if (username == "Admin"){
-    password = prompt("Password?")
-
-    if (password == 'TheMaster'){
-        alert("Welcome!")
-    } else {
-        alert("wrong password.")
-    }
-} else {
-    alert("I don't know you.")    
+function favoriteAnimal(animal){
+    return `${animal} is my favorite animal!`;
 }
+
+para.textContent = favoriteAnimal('Dog');
